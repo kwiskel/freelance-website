@@ -2,7 +2,7 @@
 
 ## Overview
 
-Freelance website for [Placeholder](placeholder)
+Freelance website - [visit here](https://freelance-website-zeta.vercel.app/)
 
 ### Tech Stack
 
