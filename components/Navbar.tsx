@@ -4,7 +4,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 
-const logo_img = '/ank_design_logo_2.png';
+const logo_img = '/aandk_software_logo.png';
+const logo_img2 = '/aandk_software_logo2.png';
+const logo_img3 = '/aandk_software_logo3.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +14,7 @@ export default function Navbar() {
     <nav className="font-mono fixed top-0 left-0 w-full text-white z-40 shadow-md">
       <div
         style={{
-          backgroundImage: 'url(navbar_artwork.png)',
+          backgroundImage: 'url(navbar_artwork.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center', // Ensures artwork is cropped from the center
           height: '100px', // Fixed height for the navbar
@@ -22,11 +24,11 @@ export default function Navbar() {
         {/* Logo Section */}
         <div className="flex items-center pt-2">
           <Image 
-            src={logo_img} 
+            src={logo_img2} 
             width={200} // Adjusted to fit the fixed navbar height
             height={200} 
             alt="logo" 
-            className="rounded-xl" 
+            className="rounded-xl " 
           />
         </div>
         

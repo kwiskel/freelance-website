@@ -26,9 +26,9 @@ export default function Home() {
           <div className="flex flex-wrap justify-center md:justify-start space-x-4 text-3xl md:text-6xl font-bold">
             <h2>Websites</h2>
             <span>|</span>
-            <h2>Branding</h2>
-            <span>|</span>
             <h2>Design</h2>
+            <span>|</span>
+            <h2>Systems</h2>
           </div>
           <p className="font-geist font-bold text-xl md:text-3xl text-white mt-4">
             Tailored for your specific needs.

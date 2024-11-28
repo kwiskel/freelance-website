@@ -4,7 +4,7 @@ import Home from '@/components/Home';
 
 export default function Page() {
   return (
-    <div>
+    <div className='bg-teal-950'>
       <Navbar />
       <div>
         <Home />
