@@ -9,7 +9,7 @@ const logo_img = '/ank_design_logo_2.png';
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="font-mono fixed top-0 left-0 w-full text-white z-40 shadow-xl">
+    <nav className="font-mono fixed top-0 left-0 w-full text-white z-40 shadow-md">
       <div
         style={{
           backgroundImage: 'url(navbar_artwork.png)',
